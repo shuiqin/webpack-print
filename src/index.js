@@ -4,7 +4,7 @@
 /**
  * Created by shuiqin on 2/23/18.
  */
-export default function printMe() {
+module.exports =  function printMe() {
   console.log('I get called from print.js!');
   this.alert('Hmmm, this probably isn\'t a great idea...');
 
